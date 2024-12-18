@@ -2,7 +2,7 @@ import logging
 
 from fastapi import FastAPI
 
-from lib.websockets import setup_app
+from asgi_ws import setup_app
 
 logging.basicConfig(
     format='%(asctime)s [%(levelname)s] %(message)s',
